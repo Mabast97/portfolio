@@ -36,10 +36,6 @@ body{
     background:#000;
 }
 
-.navbar-collapse{
-    background-color: black;
-}
-
 .parallax
 {
     height: 800px;
@@ -275,6 +271,12 @@ button[type="submit"]:hover{
 @media only screen and (max-width: 980px){
     .col-md-6, .col-md-4{
         margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .navbar-collapse{
+        background-color: black;
     }
 }
 
