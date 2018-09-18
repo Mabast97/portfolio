@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(245, 243, 243);
+    font-family: 'Slabo 27px', serif;
+}
+
+.navbar
+{
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #5E4485;
+    color: #FFF;
+    padding: 1% 0;
+    font-size: 1.2em;
+    border: 0;
+    border-bottom: 1px solid black;
+    max-height: 70px;
+}
+.navbar-brand{
+    float: left;
+    min-height: 55px;
+    font-size: 2em;
+    color: white;
+}
+
+.navbar-default{
+    transition:500ms ease;
+    background:transparent;
+}
+.navbar-default.scrolled{
+    background:#000;
+}
+
+.navbar-collapse{
+    background-color: black;
+}
+
+.parallax
+{
+    height: 800px;
+    width: 100%;
+    background-image: url(img/cup-of-coffee.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#main_section h1{
+    position: absolute;
+    font-size: 3em;
+    padding-top: 35%;
+    padding-left: 10%;
+    transform: rotate(314deg);
+    text-shadow: 1px 6px 22px #FF0000;
+}
+
+#about{
+    padding: 50px 0;
+}
+
+#about h2, #accordion h2, #workSamples h2, #contact h2, #what-i-do h2{
+    text-align: center;
+    font-size: 3em;
+    color: chocolate;
+    margin-bottom: 20px;
+}
+
+.afterText{
+    height: 2px;
+    width: 25%;
+    background-color: goldenrod;
+    margin: 0 auto 20px auto;
+}
+
+#aboutImage{
+    border-radius: 50%;
+    height: 400px; width: 100% ;
+    border: 4px dotted chocolate;
+    padding: 4px;
+}
+
+#aboutText{
+    font-size: 1.4em;
+    color: gray;
+    text-align: center;
+}
+
+#horizontal{
+    height: 6px;
+    background-color: chocolate;
+}
+
+.card-logo{
+    font-size: 4em;
+    color: olive;
+    text-align: center;
+}
+
+.card-header{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.card{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: lightgray;
+}
+
+.card-body{
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.parallax2{
+    margin-top: 60px;
+    background-image: url(img/mac.png);
+    background-attachment: fixed;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.special{
+    border: 2px solid lightgray;
+}
+
+.leftBorder{
+    border-left: 2px solid lightgray;
+}
+
+.special .col-md-6{
+    padding: 10px;
+}
+
+.special .col-md-6 a h3{
+    text-align: center;
+    font-size: 1.9em;
+
+}
+
+.special .col-md-6 a{
+    text-decoration: none;
+}
+
+.special .col-md-6 a:hover{
+    color: black;
+}
+
+#workSamples{
+    margin-bottom: 30px;
+}
+
+.parallax3{
+    margin-top: 30px;
+    background-image: url(img/team1.png);
+    background-attachment: fixed;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding: 100px;
+    border: 2px solid gold;
+    margin-bottom: 25px;
+}
+
+.btn-primary{
+    max-width: 400px;
+    max-height: 100px;
+    padding-top: 2%;
+    margin-top: 10%;
+    font-size: 2em;
+}
+
+.form-group textarea{
+    width: 100%;
+    max-height: 120px;
+    height: 100px;
+    resize: none;
+}
+
+#contact{
+    margin-bottom: 30px;
+}
+
+#icons{
+    text-align: center;
+}
+
+#icons a{
+    margin-left: 10%;
+    font-size: 3em;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.form{
+    border: 2px solid lightcoral;
+    padding: 10px;
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+    height: 100%;
+    text-align: center;
+}
+
+#facebook{
+    color: black;
+}
+
+#facebook:hover{
+    color: #3760a0;
+}
+
+#twitter{
+    color: black;
+}
+
+#twitter:hover{
+    color: #2daae1;
+}
+
+#email{
+    color: black;
+}
+
+#email:hover{
+    color: #ff0000;
+}
+
+#phone{
+    color: black;
+}
+
+#phone:hover{
+    color: #2dc100;
+}
+
+button[type="submit"]{
+    width: 70%;
+    height: 50px;
+    font-size: 1.4em;
+}
+
+button[type="submit"]:hover{
+    background-color: green;
+    font-weight: bold;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 5px;
+}
+
+
+
+@media only screen and (max-width: 980px){
+    .col-md-6, .col-md-4{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 416px){
+    .btn-primary{
+        max-width: 300px;
+        max-height: 80px;
+        padding-top: 1%;
+        margin-top: 6%;
+        font-size: 1.2em;
+    }
+}
+
+
+/* 
+.textHide{display: none;}
+
+#main_section ul{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.textAnimation.textHide li:nth-child(1) { transform: translateX(-200px) translateY(-150px);}
+.textAnimation.textHide li:nth-child(2) { transform: translateX(-200px) translateY(-150px);}
+.textAnimation.textHide li:nth-child(3) { transform: translateX(-200px) translateY(-150px);}
+.textAnimation.textHide li:nth-child(4) { transform: translateX(90px) translateY(100px);}
+.textAnimation.textHide li:nth-child(5) { transform: translateX(-200px) translateY(-150px);}
+.textAnimation.textHide li:nth-child(6) { transform: translateX(-200px) translateY(30px);}
+.textAnimation.textHide li:nth-child(7) { transform: translateX(-200px) translateY(100px);}
+.textAnimation.textHide li:nth-child(8) { transform: translateX(1500px) translateY(-150px);}
+.textAnimation.textHide li:nth-child(9) { transform: translateX(-200px) translateY(90px);}
+.textAnimation.textHide li:nth-child(10) { transform: translateX(-1600px) translateY(-90px);}
+.textAnimation.textHide li:nth-child(11) { transform: translateX(-200px) translateY(-120px);}
+.textAnimation.textHide li:nth-child(12) { transform: translateX(100px) translateY(120px);} */
